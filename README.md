@@ -1,10 +1,12 @@
 # Prompt-engineering
-I have tasked my AI to perform sentiment analysis and language translation. The resulting code explicitly shows how I can create prompt engineering templates to perform a specific task as well.
-The results on sentiment and autofill are given in JSON format and can be used for further analysis. 
+I've assigned my AI to handle sentiment analysis and language translation tasks. The code I created clearly demonstrates how to use prompt engineering templates to guide the AI in completing specific tasks effectively. 
 
-First step is to import the necessary modules and I'll be using OpenAI's helper function to process my prompts and give a response based on the instructions I have given to my AI. It's prudent to store your OpenAI API Key as an environment variable to avoid any leaks.
-The model used is GPT 3.5 Turbo. (You could try with GPT-4 or any other model of choice).
+The outputs for sentiment analysis and autofill are structured in JSON format, making them easy to use for further analysis.
 
-I generated 20 reviews with ChatGPT and I will be using them as my data points (You could try with your own sample data). I then instructed my AI to perform several tasks and return the results in a JSON file format. I did the same with my contract data and instructed the AI to perform language translation from English to Swahili.
+To begin, I import the necessary modules and use OpenAI’s helper functions to process prompts according to the instructions I provide. It’s best practice to store your OpenAI API Key as an environment variable to keep it secure.
 
-Prompt engineering is necessary, especially since LLMs are prone to hallucinations. It allows you to generate responses and helps the AI focus at the task at hand. I assure you, it's fun. Try it sometime!
+For this project, I used the GPT-3.5 Turbo model, though you can experiment with GPT-4 or any other preferred model.
+
+I generated a set of 20 sample reviews using ChatGPT to serve as my dataset (feel free to use your own). I then instructed the AI to carry out several tasks and return the results in JSON format. I applied the same approach to contract data, asking the AI to translate content from English to Swahili.
+
+Prompt engineering plays a key role in improving the accuracy of responses from language models, especially since they can sometimes produce inaccurate or irrelevant answers. By crafting well-structured prompts, you help the AI stay focused on the task. Honestly, it’s a fun and engaging process. Give it a shot sometime!
